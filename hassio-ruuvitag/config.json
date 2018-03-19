@@ -12,6 +12,5 @@
   "ports": {},
   "environment": {},
   "options": {"env_var": []},
-  "schema": {"env_var":[{"name": "str", "value": "str"}]},
-  "webui": ""
+  "schema": {"env_var":[{"name": "str", "value": "str"}]}
 }
