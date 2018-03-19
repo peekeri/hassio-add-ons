@@ -5,7 +5,7 @@
   "image": "peekeri/ruuvitag_logger",
   "description": "RuuviTag logger for pushing data to InfluxDB",
   "url": "https://github.com/peekeri/hassio-add-ons/tree/master/hassio-ruuvitag",
-  "startup": "system",
+  "startup": "application",
   "boot": "auto",
   "arch": ["armhf"],
   "map": ["ssl"],
