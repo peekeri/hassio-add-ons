@@ -1,10 +1,17 @@
 {
   "name": "RuuviTag Logger",
-  "version": "1",
+  "version": "0.0.1",
   "slug": "ruuvitag_logger",
+  "image": "peekeri/ruuvitag_logger",
   "description": "RuuviTag logger for pushing data to InfluxDB",
-  "startup": "before",
+  "url": "https://github.com/peekeri/hassio-add-ons/tree/master/hassio-ruuvitag",
+  "startup": "system",
   "boot": "auto",
-  "options": {},
-  "schema": {}
+  "arch": ["armhf"],
+  "map": ["ssl"],
+  "ports": {},
+  "environment": {},
+  "options": {"env_var": []},
+  "schema": {"env_var":[{"name": "str", "value": "str"}]},
+  "webui": ""
 }
