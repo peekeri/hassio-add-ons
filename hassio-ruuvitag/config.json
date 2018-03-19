@@ -2,7 +2,6 @@
   "name": "RuuviTag Logger",
   "version": "0.0.1",
   "slug": "ruuvitag_logger",
-  "image": "peekeri/ruuvitag_logger",
   "description": "RuuviTag logger for pushing data to InfluxDB",
   "url": "https://github.com/peekeri/hassio-add-ons/tree/master/hassio-ruuvitag",
   "startup": "application",
