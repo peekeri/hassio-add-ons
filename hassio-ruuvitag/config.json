@@ -1,6 +1,6 @@
 {
   "name": "RuuviTag Logger",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "slug": "ruuvitag_logger",
   "description": "RuuviTag logger for pushing data to InfluxDB",
   "url": "https://github.com/peekeri/hassio-add-ons/tree/master/hassio-ruuvitag",
@@ -11,5 +11,6 @@
   "ports": {},
   "environment": {},
   "options": {"env_var": []},
-  "schema": {"env_var":[{"name": "str", "value": "str"}]}
+  "schema": {"env_var":[{"name": "str", "value": "str"}]},
+  "devices": ["/dev/ttyAMA0:/dev/ttyAMA0:rwm"]
 }
