@@ -7,6 +7,8 @@ RUN apk add --no-cache python3-dev
 RUN apk add --no-cache musl-dev
 RUN apk add --no-cache linux-headers
 
+RUN apk add --no-cache bluez bluez-deprecated
+
 RUN pip3 install --upgrade setuptools
 RUN pip3 install ruuvitag-sensor
 
