@@ -1,3 +1,4 @@
 echo Hello world!
 
-python3 /collector.py
+hcitool lescan --duplicates
+hcidump --raw
